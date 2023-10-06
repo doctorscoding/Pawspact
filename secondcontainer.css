@@ -1,0 +1,112 @@
+.secondcontainer{
+    height: 100vh;
+    display: flex;
+    gap: 50px;
+    padding: 80px 40px;
+    background-color: #98DB04;
+    color: white;
+    line-height: calc(1 + 0.8 / var(--font-body-scale));
+    justify-content: space-around;
+}
+#secondhero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.secondtext {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+ #secondbtn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 20px 15px 25px;
+    font-size: 20px;
+    border-radius: 50px;
+    background: #4D4D4D;
+    text-decoration: none;
+    color: #fff;
+    line-height: 1;
+    transition: background-color 0.3s ease;
+}
+#secondhero h1 {
+    margin-bottom: 30px;
+    overflow: hidden;
+    font-size: 2.5rem;
+    line-height: 1.12;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+
+
+}
+
+@media (max-width: 1200px) {
+    .secondcontainer{
+        flex-direction: column;
+        height: 100%;
+        }
+        #secondhero h1 {
+        font-size: 28px;
+        margin-top: -4vh;
+        justify-content: center;
+        width: auto;
+
+        }
+        .secondtext {
+            height: auto;
+            width: auto;
+            line-height: 1.6;
+        }
+    
+
+    
+        .imgthreephone img {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            height: auto;
+            width: 50vw;
+        
+        }
+    
+     
+    }
+
+    @media (max-width: 1424px){
+        .secondcontainer{
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+            }
+            #secondhero h1 {
+            font-size: 28px;
+            margin-top: -4vh;
+            justify-content: center;
+            width: auto;
+    
+            }
+            .secondtext {
+                height: auto;
+                width: auto;
+                line-height: 1.6;
+            }
+        
+            #secondbtn {
+              
+            }
+        
+            .imgthreephone img {
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                height: auto;
+                /* width: auto; */
+            
+            }
+        
+    } 
